@@ -26,7 +26,6 @@ client.connect(err => {
   const adminCollection = client.db(`${process.env.DB_NAME}`).collection('admins');
   const bookingCollection = client.db(`${process.env.DB_NAME}`).collection('bookings');
 
-  console.log(uri);
   // to add all services in database for one time
   app.post('/addServices', (req, res) => {
     const newServices = req.body;
