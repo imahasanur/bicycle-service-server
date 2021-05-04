@@ -24,7 +24,7 @@ A logged-in admin can perform these tasks:
 
 ## Used Technology
 
-Client side: Bootstrap5, Html5, Css3, React js, React Router DOM, React Hook Form, React Spring, React Stripe
+Client side: Bootstrap5, Html5, Css3, React js, React Router DOM, React Hook Form, React Spring, React Stripe, Font Awesome
 
 Server side: Node js, Express js, Monogo DB atlas(database), Firebase(hosting client), Heroku(hosting server)
 
